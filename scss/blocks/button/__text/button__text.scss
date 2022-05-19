@@ -1,0 +1,19 @@
+.button__text {
+    font-size: $font-size--xs;
+    font-weight: $font-weight--semibold;
+    line-height: $line-height--button;
+    color: $color-text;
+    padding: 0;
+}
+
+@media screen and (max-width: $screen--s) {
+    .button__text {
+        font-size: $font-size--xxs;
+    }
+}
+
+@media screen and (max-width: $screen--s) {
+    .button__text {
+        font-size: $font-size--xxxs;
+    }
+}

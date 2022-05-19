@@ -1,0 +1,19 @@
+.header {
+    background-color: $color-black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 160px 0 160px;
+}
+
+@media screen and (max-width: $screen--s) {
+    .header {
+        padding: 25px 50px 0 50px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .header {
+        padding: 16px 20px 0 20px;
+    }
+}

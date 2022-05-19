@@ -1,0 +1,18 @@
+.header__join {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+@media screen and (max-width: $screen--s) {
+    .header__join {
+        gap: 11px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .header__join {
+        display: none;
+    }
+}
+

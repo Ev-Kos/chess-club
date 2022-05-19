@@ -8,6 +8,23 @@
 
 @font-face {
     font-family: 'Noto Sans';
+    src: url('../../vendor/fonts/noto-sans-v27-cyrillic-500.woff2') format('woff2'), 
+         url('../../vendor/fonts/noto-sans-v27-cyrillic-500.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../../vendor/fonts/noto-sans-v27-cyrillic-600.woff2') format('woff2'), 
+         url('../../vendor/fonts/noto-sans-v27-cyrillic-600.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Noto Sans';
     src: url('../../vendor/fonts/notosansbold.woff2') format('woff2'), 
          url('../../vendor/fonts/notosansbold.woff') format('woff'); 
     font-weight: 700;

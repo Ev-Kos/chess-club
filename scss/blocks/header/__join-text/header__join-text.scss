@@ -1,0 +1,12 @@
+.header__join-text {
+    font-size: $font-size--xs;
+    font-weight: $font-weight--normal;
+    line-height: $line-height;
+    margin-right: 2px;
+}
+
+@media screen and (max-width: $screen--s) {
+    .header__join-text {
+        font-size: $font-size--xxs;
+    }
+}
