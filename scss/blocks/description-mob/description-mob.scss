@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media screen and (max-width: $screen--xs) {
+@media screen and (max-width: $screen--s-min) {
     .description-mob {
         display: block;
         font-size: $font-size--xxs;

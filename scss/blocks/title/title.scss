@@ -8,10 +8,15 @@
     margin: 0;
 }
 
-@media screen and (max-width: $screen--xs) {
+@media screen and (max-width: $screen--s-min) {
     .title {
         font-size: $font-size--xl;
         max-width: 280px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .title {
         grid-column: 1/3;
     }
 }
