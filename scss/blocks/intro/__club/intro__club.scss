@@ -1,0 +1,17 @@
+.intro__club {
+    background-image: url(../../../../images/Rectangle.svg);
+    width: 84px;
+    height: 50px;
+    grid-row: 1;
+    grid-column: 1;
+    margin: 60px 0 70px 0;
+}
+
+@media screen and (max-width: $screen--xs) {
+    .intro__club {
+        width: 63px;
+        height: 40px;
+        margin: 50px 0 60px 0;
+        border-radius: 0 18px 18px 0;
+    }
+}
