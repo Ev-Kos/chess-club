@@ -1,0 +1,10 @@
+.card__image {
+    max-width: 320px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: $screen--xs) {
+    .card__image {
+        max-width: 280px;
+    }
+}

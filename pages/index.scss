@@ -24,3 +24,23 @@
 
 @import '../scss/blocks/description/description.scss';
 @import '../scss/blocks/description-mob/description-mob.scss';
+
+@import '../scss/blocks/team/team.scss';
+
+@import '../scss/blocks/cards/cards.scss';
+@import '../scss/blocks/card/card.scss';
+@import '../scss/blocks/card/__image/card__image.scss';
+@import '../scss/blocks/card/__name/card__name.scss';
+@import '../scss/blocks/card/__prof/card__prof.scss';
+
+@import '../scss/blocks/dots/dots.scss';
+@import '../scss/blocks/dot/dot.scss';
+@import '../scss/blocks/dot/_active/dot_active.scss';
+
+
+@import '../scss/blocks/join/join.scss';
+@import '../scss/blocks/join/__image/join__image.scss';
+@import '../scss/blocks/join/__semicircle/join__semicircle.scss';
+@import '../scss/blocks/join/__image-black/join__image-black.scss';
+@import '../scss/blocks/join/__image-green/join__image-green.scss';
+@import '../scss/blocks/join/__container/join__container.scss';

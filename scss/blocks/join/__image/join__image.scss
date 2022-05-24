@@ -1,0 +1,24 @@
+.join__image {
+    background-image: url(../../../../images/circle\ green.png);
+    width: 440px;
+    height: 440px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: $screen--s) {
+    .join__image {
+        background-image: url(../../../../images/circle\ white.svg);
+        width: 206px;
+        height: 360px;
+    } 
+}
+
+@media screen and (max-width: $screen--xs) {
+    .join__image {
+        background-image: url(../../../../images/circle\ black.svg);
+        width: 288px;
+        height: 140px;
+        margin: 60px auto 0;
+        grid-row: 2;
+    } 
+}

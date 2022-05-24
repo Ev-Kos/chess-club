@@ -1,0 +1,10 @@
+.join__semicircle {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+
+@media screen and (max-width: $screen--s) {
+    .join__semicircle {
+        display: none;
+    }
+}

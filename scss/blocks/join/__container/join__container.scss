@@ -1,0 +1,15 @@
+.join__container {
+    margin:0 0 0 100px;
+}
+
+@media screen and (max-width: $screen--s) {
+    .join__container {
+        margin:0 0 0 37px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .join__container {
+        margin: 0 auto 0;
+    } 
+}
