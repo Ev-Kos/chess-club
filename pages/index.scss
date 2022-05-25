@@ -8,8 +8,7 @@
 @import '../scss/blocks/header/__conteiner/header__conteiner.scss';
 @import '../scss/blocks/header/__join/header__join.scss';
 @import '../scss/blocks/header/__join-text/header__join-text.scss';
-
-@import '../scss/blocks/logo/logo.scss';
+@import '../scss/blocks/header/__logo/header__logo.scss';
 
 @import '../scss/blocks/button/button.scss';
 @import '../scss/blocks/button/__text/button__text.scss';
@@ -49,3 +48,8 @@
 @import '../scss/blocks/battle/__conteiner/battle__conteiner.scss';
 @import '../scss/blocks/battle/__image/battle__image.scss';
 @import '../scss/blocks/battle/__board-image/battle__board-image.scss';
+
+@import '../scss/blocks/footer/footer.scss';
+@import '../scss/blocks/footer/__conteiner/footer__conteiner.scss';
+@import '../scss/blocks/footer/__author/footer__author.scss';
+@import '../scss/blocks/footer/__logo-container/footer__logo-container.scss';

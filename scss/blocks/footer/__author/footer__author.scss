@@ -1,0 +1,13 @@
+.footer__author {
+    font-size: $font-size--xs;
+    font-weight: $font-weight--normal;
+    line-height: 1;
+    color: $color-author;
+    margin: 0;
+}
+
+@media screen and (max-width: $screen--xs) {
+    .footer__author {
+        font-size: $font-size--xxs;
+    }
+}

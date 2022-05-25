@@ -1,0 +1,14 @@
+.footer__conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: $screen--xs) {
+    .footer__conteiner {
+        gap: 10px;
+    }
+}

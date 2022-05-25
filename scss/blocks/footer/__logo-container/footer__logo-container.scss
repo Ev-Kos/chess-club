@@ -1,0 +1,12 @@
+.footer__logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+@media screen and (max-width: $screen--xs) {
+    .footer__logo-container {
+        gap: 40px;
+    }
+}
