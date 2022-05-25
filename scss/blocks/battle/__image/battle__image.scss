@@ -1,0 +1,24 @@
+.battle__image {
+    background-image: url(../../../../images/circle\ battle.svg);
+    width: 440px;
+    height: 220px;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 60px;
+    bottom: 0;
+}
+
+@media screen and (max-width: $screen--s) {
+    .battle__image {
+        background-image: url(../../../../images/circle\ battle-tab.svg);
+        width: 220px;
+        height: 220px;
+        right: 49px;
+    }
+}
+    
+@media screen and (max-width: $screen--xs) {
+    .battle__image {
+        display: none;
+    }
+}

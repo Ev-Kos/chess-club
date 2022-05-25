@@ -1,0 +1,16 @@
+.battle__board-image {
+    background-image: url(../../../../images/chess\ board\ green.png);
+    width: 416px;
+    height: 104px;
+    background-repeat: no-repeat;
+    margin: 36px 0 0 0;
+}
+    
+@media screen and (max-width: $screen--xs) {
+    .battle__board-image {
+        background-image: url(../../../../images/chess\ board\ green-mob.png);
+        width: 280px;
+        height: 70px;
+        margin: 0;
+    }
+}
