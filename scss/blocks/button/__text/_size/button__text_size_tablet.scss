@@ -1,0 +1,9 @@
+.button__text_size_tablet {
+    font-size: $font-size--xs;
+}
+
+@media screen and (max-width: $screen--xs) {
+    .button__text_size_tablet {
+        font-size: $font-size--xxxs;
+    }
+}

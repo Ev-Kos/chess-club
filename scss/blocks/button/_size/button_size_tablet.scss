@@ -1,0 +1,16 @@
+.button_size_tablet {
+    width: 10.9rem;
+}
+
+@media screen and (max-width: $screen--s) {
+    .button_size_tablet {
+        width: 10.9rem;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .button_size_tablet {
+        width: 7rem;
+    }
+}

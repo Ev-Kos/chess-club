@@ -1,14 +1,14 @@
 $font-family: 'Noto Sans', Arial, sans-serif;
 
-$font-size--xxxs: 10px;
-$font-size--xxs: 13px;
-$font-size--xs: 15px;
-$font-size--s: 16px;
-$font-size--m-min: 18px;
-$font-size--m: 20px;
-$font-size--l: 22px;
-$font-size--xl: 40px;
-$font-size--xxl: 70px;
+$font-size--xxxs: 0.5rem;
+$font-size--xxs: 0.65rem;
+$font-size--xs: 0.75rem;
+$font-size--s: 0.8rem;
+$font-size--m-min: 0.9rem;
+$font-size--m: 1rem;
+$font-size--l: 1.1rem;
+$font-size--xl: 2rem;
+$font-size--xxl: 3.5rem;
 
 $font-weight--normal: 400;
 $font-weight--regular: 500;
@@ -24,14 +24,16 @@ $color-black: #000000;
 $color-violet: #5036E6;
 $color-author: #8E9199;
 
-$screen--xs: 480px;
-$screen--s-min: 670px;
+$screen--xs: 414px;
 $screen--s: 768px;
+$screen--xl: 1440px;
+
+
+$screen--s-min: 670px;
 $screen--md: 994px;
 $screen--lg: 1280px;
 $screen--lg-max: 1350px;
 $screen--xl-min: 1439px;
-$screen--xl: 1440px;
 $screen--xxl: 3000px;
 
 

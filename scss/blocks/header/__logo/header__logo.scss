@@ -1,11 +1,19 @@
 .header__logo {
-    width: 38px;
-    height: 54px;
+    width: 1.9rem;
+    height: 2.7rem;
+    padding: 1.3rem 0 0 8rem;
+}
+
+@media screen and (max-width: $screen--s) {
+    .header__logo {
+        padding: 1.3rem 0 0 2.5rem;
+    }
 }
 
 @media screen and (max-width: $screen--xs) {
     .header__logo {
-        width: 26px;
-        height: 36px;
+        width: 1.3rem;
+        height: 1.8rem;
+        padding: 0.8rem 0 0 1rem;
     }
 }

@@ -2,14 +2,21 @@
     text-transform: uppercase;
     font-size: $font-size--l;
     font-weight: $font-weight--normal;
-    line-height: 1;
-    letter-spacing: 0.9px;
-    margin: 33px 0 18px 0;
+    line-height: 1.45rem;
+    letter-spacing: 0.045rem;
+    margin: 1.65rem 0 0.5rem 0;
+}
+
+@media screen and (max-width: $screen--s) {
+    .card__name {
+        margin: 1.59rem 0 0.5rem 0;
+    }
 }
 
 @media screen and (max-width: $screen--xs) {
     .card__name {
         font-size: $font-size--m-min;
-        margin: 22px auto 12px;
+        margin: 1rem auto 0;
+        line-height: 1.28rem;
     }
 }

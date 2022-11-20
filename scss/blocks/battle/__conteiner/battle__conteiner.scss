@@ -1,18 +1,18 @@
 .battle__conteiner {
     display: flex;
     justify-content: space-between;
-    margin: 74px 0 0 0;
+    margin: 3.7rem 0 0 0;
 }
 
 @media screen and (max-width: $screen--s) {
     .battle__conteiner {
-        margin: 104px 0 0 0;
+        margin: 5.2rem 0 0 0;
     }
 }
     
 @media screen and (max-width: $screen--xs) {
     .battle__conteiner {
         justify-content: center;
-        margin: 31px 0 0 0;
+        margin: 1.75rem 0 0 0;
     }
 }

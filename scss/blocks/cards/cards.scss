@@ -1,20 +1,20 @@
 .cards {
-    margin: 110px 0 0 0;
+    margin: 5.5rem 0 0 0;
     display: flex;
     justify-content: space-between;
-    gap: 80px;
+    gap: 4rem;
 }
 
 @media screen and (max-width: $screen--s) {
     .cards {
-        margin: 140px 0 0 0;
-        gap: 28px;
+        margin: 7rem 0 0 0;
+        gap: 1.4rem;
     }
 }
 
 @media screen and (max-width: $screen--xs) {
     .cards {
-        margin: 60px 0 0 0;
-        gap: 0;
+        margin: 3rem 0 0 0;
+        gap: 1rem;
     }
 }

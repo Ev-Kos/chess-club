@@ -1,24 +1,25 @@
 .join__image {
     background-image: url(../../../../images/circle\ green.png);
-    width: 440px;
-    height: 440px;
+    width: 22rem;
+    height: 22rem;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 @media screen and (max-width: $screen--s) {
     .join__image {
         background-image: url(../../../../images/circle\ white.svg);
-        width: 206px;
-        height: 360px;
+        width: 10.3rem;
+        height: 18rem;
     } 
 }
 
 @media screen and (max-width: $screen--xs) {
     .join__image {
         background-image: url(../../../../images/circle\ black.svg);
-        width: 288px;
-        height: 140px;
-        margin: 60px auto 0;
+        width: 14.9rem;
+        height: 7rem;
+        margin: 3rem auto 0;
         grid-row: 2;
     } 
 }

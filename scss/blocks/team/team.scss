@@ -1,16 +1,20 @@
 .team {
     background-color: $color-violet;
-    padding: 80px 160px 80px 160px;
+    padding: 4rem 8rem 4rem 8rem;
+    margin: 4rem 0 0 0;
 }
 
 @media screen and (max-width: $screen--s) {
     .team {
-        padding: 50px 50px 50px 50px;
+        padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+        margin: 2.5rem 0 0 0;
+        overflow: hidden;
     }
 }
 
 @media screen and (max-width: $screen--xs) {
     .team {
-        padding: 20px 20px 0 20px;
+        padding: 1rem 1rem 0 1rem;
+        margin: 1rem 0 0 0;
     }
 }

@@ -5,12 +5,11 @@
     text-transform: uppercase;
     grid-row: 1;
     grid-column: 1;
-    padding-left: 17px;
+    text-align: center;
 }
 
 @media screen and (max-width: $screen--xs) {
     .intro__club-text {
         font-size: $font-size--xxs;
-        padding-left: 13px;
     }
 }

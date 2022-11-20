@@ -2,35 +2,30 @@
     background-image: url(../../../../images/circle-desktop.png);
     grid-column: 2;
     grid-row: 1/5;
-    margin: 70px 0 0 0;
+    margin: 3.5rem 0 0 0;
     justify-self: flex-end;
-    height: 640px;
-    width: 479px;
+    height: 32rem;
+    width: 23.95rem;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
-@media screen and (max-width: $screen--lg) {
+@media screen and (max-width: $screen--s) {
     .intro__board-image {
         background-image: url(../../../../images/circle-tab.png);
         grid-row: 2/5;
-        margin: 0;
-        height: 520px;
-        width: 130px;  
+        margin: 1.95rem 0 0 0;
+        height: 26rem;
+        width: 6.5rem;  
     }
 }
 
-@media screen and (max-width: $screen--md) {
-    .intro__board-image {
-        margin: 42px 0 0 0;
-    }
-}
-
-@media screen and (max-width: $screen--s-min) {
+@media screen and (max-width: $screen--xs) {
     .intro__board-image {
         background-image: url(../../../../images/circle-mob.png);
         grid-row: 1;
         grid-column: 2;
-        margin: 40px 20px 0 0;
+        margin: 2rem 1rem 0 0;
         width: 120px;
         height: 60px;
     }

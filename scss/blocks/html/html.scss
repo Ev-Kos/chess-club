@@ -1,0 +1,16 @@
+.html {
+	font-size: calc(100vw / 1440 * 20);
+}
+
+
+@media screen and (max-width: $screen--s) {
+	.html {
+		font-size: calc(100vw / 767 * 20);
+	}
+}
+
+@media screen and (max-width: $screen--xs) {
+	.html {
+		font-size: calc(100vw / 320 * 20);
+	}
+}

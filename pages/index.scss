@@ -2,6 +2,7 @@
 @import '../vendor/fonts/fonts.scss';
 @import '../vendor/variables.scss';
 
+@import '../scss/blocks/html/html.scss';
 @import '../scss/blocks/page/page.scss';
 
 @import '../scss/blocks/header/header.scss';
@@ -12,6 +13,8 @@
 
 @import '../scss/blocks/button/button.scss';
 @import '../scss/blocks/button/__text/button__text.scss';
+@import '../scss/blocks/button/__text/_size/button__text_size_tablet.scss';
+@import '../scss/blocks/button/_size/button_size_tablet.scss';
 
 @import '../scss/blocks/intro/intro.scss';
 @import '../scss/blocks/intro/__club/intro__club.scss';

@@ -1,16 +1,19 @@
 .header__conteiner {
     display: flex;
-    gap: 53px;
+    gap: 2.65rem;
+    padding: 1.4rem 8rem 0 0;
 }
 
 @media screen and (max-width: $screen--s) {
     .header__conteiner {
-        gap: 32px;
+        gap: 1.6rem;
+        padding: 1.3rem 2.5rem 0 0;
     }
 }
 
 @media screen and (max-width: $screen--xs) {
     .header__conteiner {
-        gap: 114px;
+        gap: 0;
+        padding: 0.94rem 1rem 0 0;
     }
 }
