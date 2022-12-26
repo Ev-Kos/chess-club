@@ -56,3 +56,12 @@
 @import '../scss/blocks/footer/__conteiner/footer__conteiner.scss';
 @import '../scss/blocks/footer/__author/footer__author.scss';
 @import '../scss/blocks/footer/__logo-container/footer__logo-container.scss';
+
+@import '../scss/blocks/popup/popup.scss';
+@import '../scss/blocks/popup/_opened/popup_opened.scss';
+@import '../scss/blocks/popup/__close-button/popup__close-button.css';
+
+@import '../scss/blocks/slider/slider.scss';
+@import '../scss/blocks/slider/__button/slider__button.scss';
+@import '../scss/blocks/slider/__item/slider__item.scss';
+@import '../scss/blocks/slider/__button-next/slider__button-next.scss';

@@ -6,6 +6,10 @@
     border: none;
     padding: 0;
 }
+.button:hover {
+    background-color: $color-button-hover;
+    cursor: pointer;
+}
 
 @media screen and (max-width: $screen--s) {
     .button {
