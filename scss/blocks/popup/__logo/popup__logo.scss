@@ -1,0 +1,11 @@
+.popup__logo {
+    width: 1.9rem;
+    height: 2.7rem;
+}
+
+@media screen and (max-width: $screen--xs) {
+    .popup__logo {
+        width: 1.3rem;
+        height: 1.8rem;
+    }
+}

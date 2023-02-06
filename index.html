@@ -38,9 +38,11 @@
             <div class="cards">
                 <template id="fotoCard">
                     <div class="card">
-                        <img class="card__image" src="#" alt="#">
-                        <p class="card__name"></p>
-                        <p class="card__prof"></p>
+                        <div class="card__container">
+                            <img class="card__image" src="#" alt="#">
+                            <p class="card__name"></p>
+                            <p class="card__prof"></p>
+                        </div>
                         <div class="dots">
                             <div class="dot dot_active"></div>
                             <div class="dot"></div>
@@ -70,7 +72,7 @@
                 <template id="battleCard">
                     <div class="card">
                         <img class="card__image" src="./images/battle.png" alt="#">
-                        <div class="dots">
+                        <div class="dots" id="fotoMob">
                             <div class="dot dot_active"></div>
                             <div class="dot"></div>
                             <div class="dot"></div>
@@ -106,6 +108,19 @@
             <button class="slider__button slider__button-next" id="next">&#10095;</button>
         </div>
     </section>
+    <section class="popup popup__registration" id="registration">
+        <img class="popup__logo" src="./images/logo chess.svg" alt="Логотип в виде шахматной фигуры">
+        <h2 class="popup__title">Регистрация</h2>
+        <form class="popup__form">
+            <input class="popup__input" placeholder="Имя">
+            <input class="popup__input" placeholder="Email">
+        </form>
+        <button class="button">
+            <p class="button__text">Зарегистрироваться</p>
+        </button>
+    </section>
+
+
     <script src='./scripts/initialCard.js'></script>
     <script src="./scripts/script.js"></script>
 </body>

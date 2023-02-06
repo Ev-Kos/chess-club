@@ -9,6 +9,12 @@ function openPopup(popup) {
     document.addEventListener('keydown', closeByEscape);
 }
 
+ const buttons = document.querySelectorAll('.button');
+ const popupRegistration = document.querySelector('.popup__registration');
+ buttons.forEach((button) => {
+     button.addEventListener('click', () => openPopup(popupRegistration));
+ })
+
 //функция закрытия попапов
 function closePopup(popup) {
     popup.classList.remove('popup_opened');
@@ -25,17 +31,16 @@ function closeByEscape(evt) {
 }
 
 //закрытие по клику на оверлэй и крестик
+const popupSlider = document.querySelector('.popup__slider');
 
-popups.forEach(function(popup) {
-    popup.addEventListener('mousedown', function(evt) {
-      if (evt.target.classList.contains('popup')) {
-        closePopup(popup);
-      }
-      if (evt.target.classList.contains('popup__close-button')) {
-       closePopup(popup);
-     }
-    })
-  });
+popupSlider.addEventListener('mousedown', function(evt) {
+    if (evt.target.classList.contains('popup')) {
+        closePopup(popupSlider);
+    }
+    if (evt.target.classList.contains('popup__close-button')) {
+       closePopup(popupSlider);
+    }
+})
 
 //slider
 
@@ -43,14 +48,24 @@ function sliderNext (cardImages, sliderImage) {
     let n;
     for(let i = 0; i < cardImages.length; i++) {
         if (cardImages[i].src === sliderImage.src) {
-            i === cardImages.length - 1 ? n = 0 : n = i+1
+            i === cardImages.length - 1 ? n = 0 : n = i+1;
             sliderImage.src = cardImages[n].src;
             break;
         }
    }
 }
 
-  
+function sliderBack (cardImages, sliderImage) {
+    let n;
+    for(let i = 0; i < cardImages.length; i++) {
+        if (cardImages[i].src === sliderImage.src) {
+            i === 0 ? n = cardImages.length - 1 : n = i-1;
+            sliderImage.src = cardImages[n].src;
+            break;
+        }
+   }
+}
+
 function createFotos(obj) {
     const card = fotoTemplate.querySelector('.card').cloneNode(true);
     const image = card.querySelector('.card__image');
@@ -98,12 +113,18 @@ initialBattleCard.forEach(function(obj) {
     battleCards.append(card);
 });
 
-
-
-const buttonsForvard = fotoSlider.querySelector('.slider__button-next');
+const buttonNext = fotoSlider.querySelector('.slider__button-next');
+const buttonBack = fotoSlider.querySelector('.slider__button-previous');
 const cardsImages = fotoCards.querySelectorAll('.card__image')
 const sliderImages = fotoSlider.querySelector('.slider__item')
 const cardImages = battleCards.querySelectorAll('.card__image')
 
-buttonsForvard.addEventListener('click',  () => sliderNext(cardsImages, sliderImages))
-buttonsForvard.addEventListener('click',  () => sliderNext(cardImages, sliderImages))
+buttonNext.addEventListener('click',  function() {
+    sliderNext(cardsImages, sliderImages);
+    sliderNext(cardImages, sliderImages)
+})
+
+buttonBack.addEventListener('click',  function() {
+    sliderBack(cardsImages, sliderImages);
+    sliderNext(cardImages, sliderImages);
+})
