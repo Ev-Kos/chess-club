@@ -1,5 +1,5 @@
 .battle__image {
-    background-image: url(../../../../images/circle\ battle.svg);
+    background-image: url(../../../../images/circle-battle.svg);
     width: 22rem;
     height: 11rem;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: $screen--s) {
     .battle__image {
-        background-image: url(../../../../images/circle\ battle-tab.svg);
+        background-image: url(../../../../images/circle-battle-tab.svg);
         width: 11rem;
         height: 11rem;
         right: 2.45rem;
