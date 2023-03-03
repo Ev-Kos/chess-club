@@ -1,13 +1,8 @@
 .intro__club {
-    background-image: url(../../../../images/Rectangle.svg);
-    width: 4.2rem;
-    height: 2.5rem;
     grid-row: 1;
     grid-column: 1;
     margin: 3rem 0 3.5rem 0;
-    border-radius: 0 0.9rem 0.9rem 0;
-    background-size: contain;
-    background-repeat: no-repeat;
+    position: relative;
 }
 
 @media screen and (max-width: $screen--xs) {

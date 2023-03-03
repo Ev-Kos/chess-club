@@ -520,15 +520,10 @@ template {
   }
 }
 .intro__club {
-  background-image: url(../../../../images/Rectangle.svg);
-  width: 4.2rem;
-  height: 2.5rem;
   grid-row: 1;
   grid-column: 1;
   margin: 3rem 0 3.5rem 0;
-  border-radius: 0 0.9rem 0.9rem 0;
-  background-size: contain;
-  background-repeat: no-repeat;
+  position: relative;
 }
 
 @media screen and (max-width: 414px) {
@@ -546,8 +541,16 @@ template {
   grid-row: 1;
   grid-column: 1;
   text-align: center;
+  position: relative;
+  bottom: 50px;
+  right: 14.6rem;
 }
 
+@media screen and (max-width: 768px) {
+  .intro__club-text {
+    right: 11.8rem;
+  }
+}
 @media screen and (max-width: 414px) {
   .intro__club-text {
     font-size: 0.65rem;
